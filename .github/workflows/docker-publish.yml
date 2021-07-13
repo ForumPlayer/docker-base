@@ -4,7 +4,9 @@ on:
   push:
     # Publish `main` as Docker `latest` image.
     branches:
-      - main
+      #- main
+      - debian
+      - ubuntu
 
 
   # Run tests for any PRs.
